@@ -1,7 +1,7 @@
 const Features = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 px-16 mt-32">
-      <div className="flex flex-col items-center justify-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-4 md:px-16 mt-32">
+      <div className="flex flex-col items-center justify-start md:justify-center">
         <img loading="lazy" src="invest.png" alt="invest" />
         <h4 className="text-2xl font-bold text-[#20202c] mt-4">
           Invest with Confidence
