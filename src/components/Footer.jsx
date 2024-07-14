@@ -6,7 +6,7 @@ const Footer = () => {
         community
       </h2>
       <div className="flex flex-col md:flex-row gap-8 mt-8">
-        <div className="flex gap-8">
+        <div className="flex gap-28 md:gap-8">
           <a className="flex flex-col items-center gap-1" href="">
             <img
               className="w-8"
@@ -30,7 +30,7 @@ const Footer = () => {
             <span className="text-sm text-[#07085b]">X</span>
           </a>
         </div>
-        <div className="flex gap-8">
+        <div className="flex gap-28 md:gap-8">
           <a className="flex flex-col items-center gap-1.5" href="">
             <img
               className="w-8"
