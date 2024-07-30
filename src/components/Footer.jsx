@@ -6,7 +6,7 @@ const Footer = () => {
         community
       </h2>
       <div className="flex flex-col md:flex-row gap-8 mt-8">
-        <div className="flex gap-28 md:gap-8">
+        <div className="flex justify-between md:gap-8">
           <a className="flex flex-col items-center gap-1" href="">
             <img
               className="w-8"
@@ -30,7 +30,7 @@ const Footer = () => {
             <span className="text-sm text-[#07085b]">X</span>
           </a>
         </div>
-        <div className="flex gap-28 md:gap-8">
+        <div className="flex justify-between md:gap-8">
           <a className="flex flex-col items-center gap-1.5" href="">
             <img
               className="w-8"
@@ -55,11 +55,13 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    <p className="text-[#07085b] flex items-center gap-2 my-10">
+      <p className="text-[#07085b] flex flex-col md:flex-row items-start md:items-center gap-2 my-10">
         <span className="text-xl font-bold">1dex.network</span>
-        <span className="text-sm">Crafted by Plus Technology</span>
-        <span className="text-base font-medium">2024R</span>
-    </p>
+        <div className="flex items-center gap-2">
+          <span className="text-sm">Crafted by Plus Technology</span>
+          <span className="text-base font-medium">2024R</span>
+        </div>
+      </p>
     </footer>
   );
 };

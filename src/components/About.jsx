@@ -4,7 +4,7 @@ const About = () => {
             <div className="flex items-center justify-center">
                 <img className="w-32" loading="lazy" src="purple-logo.png" alt="purple-logo" />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 mt-10 md:mt-20">
+            <div className="md:flex justify-between items-center mt-10 md:mt-20">
                 <ul className="flex flex-col gap-4 list-disc ml-4 md:ml-0">
                     <li>It is not a standard DEX. It is different.</li>
                     <li>Follow our trading blue print for the continued <br />and regular returns on your investments</li>
